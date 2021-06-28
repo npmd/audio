@@ -8,3 +8,15 @@ document.writeln('<div class="root_padding">\n' +
     '    </div>')
 
 document.writeln('<script src="' + cdn_static + '/static/js/analysis.js"></script>')
+
+loadJs("5cb6ecc1cef2aab2");
+
+function loadJs(id) {
+    setTimeout(function () {
+        (function () {
+            var d = document, s = d.createElement('script');
+            s.src = '//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-' + id;
+            (d.head || d.body).appendChild(s);
+        })();
+    }, 3000);
+}
