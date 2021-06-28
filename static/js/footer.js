@@ -7,4 +7,4 @@ document.writeln('<div class="root_padding">\n' +
     '        <div id="lang_link" href="#"></div>\n' +
     '    </div>')
 
-document.writeln('<script src="' + cdn_static + '/js/analysis.js"></script>')
+document.writeln('<script src="' + cdn_static + '/static/js/analysis.js"></script>')
