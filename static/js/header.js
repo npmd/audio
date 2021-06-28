@@ -22,6 +22,11 @@ document.writeln('<div class="header">\n' +
     '                    音频转换格式\n' +
     '                </a>\n' +
     '            </li>\n' +
+    '            <li>\n' +
+    '                <a class="" href="http://pic.ossoft.cn" target="_blank">\n' +
+    '                    图片在线编辑\n' +
+    '                </a>\n' +
+    '            </li>\n' +
     '        </ul>\n' +
     '    </nav>\n' +
     '</div>')
