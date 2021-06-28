@@ -146,7 +146,7 @@ if (isAudioEditPro()) {
     class_pro = "";
     class_mixer = "";
     class_convert = "current";
-    window.glob = {"max_file_size": 6442450944, "site_id": "audio-convert", "lang_id": "cn", "country": "CN", "enable_user_system": false, "media_url": window.location.origin + "/audio-cutter/media-worker.js?53a8", "media_wasm": "https://cdn.joinquant.com/std/third/wasm/media_worker.wasm?62f9", "audio_lib_url": window.location.origin + "/audio-cutter/a_worker.lib.js?ebc2"};
+    window.glob = {"max_file_size": 6442450944, "site_id": "audio-convert", "lang_id": "cn", "country": "CN", "enable_user_system": false, "media_url": cdn_static + "/audio-cutter/media-worker.js?53a8", "media_wasm": "https://cdn.joinquant.com/std/third/wasm/media_worker.wasm?62f9", "audio_lib_url": cdn_static + "/audio-cutter/a_worker.lib.js?ebc2"};
     window.glob.lang = {
         "upload_error": "文件上传错误",
         "max_filesize_warning": "最大文件尺寸为{0}Mb，您的文件是{1}Mb。",
