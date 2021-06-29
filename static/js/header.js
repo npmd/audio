@@ -8,17 +8,17 @@ document.writeln('<div class="header">\n' +
     '                </a>\n' +
     '            </li>\n' +
     '            <li class="' + class_pro + '">\n' +
-    '                <a class="" href="/audio-editPro.html" target="_blank">\n' +
+    '                <a class="" href="/audio-editPro.html">\n' +
     '                    多音频剪辑\n' +
     '                </a>\n' +
     '            </li>\n' +
     '            <li class="' + class_mixer + '">\n' +
-    '                <a class="" href="/audio-mixer.html" target="_blank">\n' +
+    '                <a class="" href="/audio-mixer.html">\n' +
     '                    多音频混音\n' +
     '                </a>\n' +
     '            </li>\n' +
     '            <li class="' + class_convert + '">\n' +
-    '                <a class="" href="/audio-convert.html" target="_blank">\n' +
+    '                <a class="" href="/audio-convert.html">\n' +
     '                    音频转换格式\n' +
     '                </a>\n' +
     '            </li>\n' +
